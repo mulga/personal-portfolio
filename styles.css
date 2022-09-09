@@ -57,10 +57,10 @@ select {
   *,
   *::before,
   *::after {
-    animation-duration: 0.01ms !important;
+    animation-duration: 0.3ms !important;
     animation-iteration-count: 1 !important;
-    transition-duration: 0.01ms !important;
-    scroll-behavior: auto !important;
+    transition-duration: 0.3ms !important;
+    scroll-behavior: smooth !important;
   }
 }
 
@@ -119,6 +119,10 @@ select {
 
 a {
   text-decoration: none;
+}
+
+.btn-link {
+  color: var(--clr-accent);
 }
 
 .button-link {
@@ -235,8 +239,6 @@ h6 {
 /* hero home */
 .home-hero-section {
   background-color: var(--clr-tintBlue);
-  /* height: 760px; */
-  /* height: 80vh; */
 }
 
 /* navbar */
@@ -283,19 +285,17 @@ h6 {
   font-size: 16px;
 }
 
-.mobil-menu {
-  color: var(--clr-white);
-  font-size: 2rem;
-  margin-left: 2rem;
-  display: none;
-}
-
 /* hero content */
 
 .hero-wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding: 128px 0;
+  padding-top: 50px;
+}
+
+.hero-content {
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .hero-title {
@@ -312,7 +312,7 @@ h6 {
   color: var(--clr-royalblue);
 }
 
-/* work container */
+/* tools & skills*/
 
 .section-work {
   background-color: #f4f6fc;
@@ -346,7 +346,7 @@ h6 {
 }
 
 .cards {
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   grid-row-gap: 48px;
 }
 
@@ -368,12 +368,8 @@ h6 {
   margin-bottom: 4rem;
 }
 
-.work-card-left {
-  grid-column: 1 / span 8;
-}
-.work-card-right {
-  grid-column: 9 / span 12;
-  grid-row-gap: 32px;
+.work-images {
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .work-card img {
@@ -778,7 +774,7 @@ footer {
   .nav-menu {
     display: none;
   }
-  .mobil-menu {
+  .mobil-menu-toggle {
     display: block;
   }
 
@@ -848,9 +844,7 @@ footer {
     font-size: 0.9rem;
     padding: 0.5rem 1rem;
   }
-  .hero-wrapper {
-    padding: 1rem 0;
-  }
+
   .hero-title {
     font-size: 2.2rem;
     line-height: 1.4;
