@@ -40,9 +40,7 @@
               <li class="menu-item">
                 <a class="menu-link active" href="#">Home</a>
               </li>
-              <li class="menu-item">
-                <a class="menu-link" href="#">About Me</a>
-              </li>
+
               <li class="menu-item">
                 <a class="menu-link" href="#features">Features</a>
               </li>
@@ -51,10 +49,9 @@
                 <a class="menu-link" href="#myProjects">Projects</a>
               </li>
             </ul>
-            <button class="btn contact-us">Contact me</button>
-            <div class="mobil-menu">
-              <i class="fa-solid fa-bars"></i>
-            </div>
+            <button class="btn contact-us">
+              <a class="btn-link" href="#contact-form">Contact me</a>
+            </button>
           </div>
         </div>
 
@@ -64,16 +61,17 @@
           <div class="hero-content">
             <h1 class="hero-title">Hello, I'm a web developer</h1>
             <p class="hero-text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt.
+              Frontend Web Developer | HTML | CSS | JavaScript | Vue Js | PHP |
+              Wordpress
             </p>
             <div class="button-wrapper">
-              <button class="btn btn-primary">View my work</button>
-              <button class="btn btn-link">View Pricing &nbsp &#8594;</button>
+              <button class="btn btn-primary">
+                <a type="button" href="#myProjects">View my work</a>
+              </button>
             </div>
           </div>
           <div class="hero-image">
-            <img src="images/home-hero-illustration.svg" alt="" />
+            <img src="images/mehmet-ulga-sephia.png" alt="" />
           </div>
         </div>
       </div>
@@ -86,46 +84,49 @@
         <div class="work-container grid">
           <!-- section hedaer -->
           <div class="section-header-container-left">
-            <h2 class="section-title">How we work</h2>
-            <p class="section-text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor.
-            </p>
-            <button class="btn btn-link btn-dark">
-              Get in touch with us &nbsp &#8594;
-            </button>
+            <h2 class="section-title">Tools & Skills</h2>
+            <p class="section-text">Expertise that is traded to meet needs</p>
+            <button class="btn btn-link btn-dark"></button>
           </div>
           <div class="work-content grid">
             <!-- card -->
 
             <div class="cards grid">
               <div class="card">
-                <img src="images/pointer-1.png" alt="" />
-                <h5 class="card-title">Strategy</h5>
+                <img src="images/html.png" alt="" />
+                <h6 class="card-title">HTML 5</h6>
                 <p>
                   Euismod faucibus turpis eu gravida mi. Pellentesque et velit
                   aliquam.
                 </p>
               </div>
               <div class="card">
-                <img src="images/pointer-2.png" alt="" />
-                <h5 class="card-title">Wireframing</h5>
+                <img src="images/css.png" alt="" />
+                <h6 class="card-title">CSS</h6>
                 <p>
                   Euismod faucibus turpis eu gravida mi. Pellentesque et velit
                   aliquam.
                 </p>
               </div>
               <div class="card">
-                <img src="images/pointer-3.png" alt="" />
-                <h5 class="card-title">Design</h5>
+                <img src="images/javascript.png" alt="" />
+                <h6 class="card-title">JavaScript</h6>
                 <p>
                   Euismod faucibus turpis eu gravida mi. Pellentesque et velit
                   aliquam.
                 </p>
               </div>
               <div class="card">
-                <img src="images/pointer-4.png" alt="" />
-                <h5 class="card-title">Development</h5>
+                <img src="images/php.png" alt="" />
+                <h6 class="card-title">Vue.js</h6>
+                <p>
+                  Euismod faucibus turpis eu gravida mi. Pellentesque et velit
+                  aliquam.
+                </p>
+              </div>
+              <div class="card">
+                <img src="images/wordpress.png" alt="" />
+                <h6 class="card-title">Vue.js</h6>
                 <p>
                   Euismod faucibus turpis eu gravida mi. Pellentesque et velit
                   aliquam.
@@ -137,7 +138,7 @@
       </div>
     </section>
 
-    <!-- our projects -->
+    <!-- my projects -->
 
     <section class="section-project" id="myProjects">
       <div class="container">
@@ -149,70 +150,56 @@
         </div>
 
         <div class="work-images grid">
-          <div class="work-card-left">
-            <!-- worl card -->
-            <div class="work-card">
-              <div class="overlay">
-                <div class="overlay-content">
-                  <p class="project-title">dkt Taste Web Development</p>
-                  <p class="project-text">
-                    Euismod faucibus turpis eu gravida mi. Pellentesque et velit
-                    aliquam
-                  </p>
-                  <button class="btn btn-link btn-project-hover">
-                    <a
-                      class="button-link"
-                      href="https://dkttaste.com/?lang=en"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      >View project &nbsp &#8594;</a
-                    >
-                  </button>
-                </div>
+          <!-- portfolio 1 -->
+          <div class="work-card">
+            <div class="overlay overlay-full">
+              <div class="overlay-content">
+                <p class="project-title">dkt Taste Web Development</p>
+                <!-- <p class="project-text"></p> -->
+                <button class="btn btn-link btn-project-hover">
+                  <a
+                    class="button-link"
+                    href="https://dkttaste.com/?lang=en"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >View project &nbsp &#8594;</a
+                  >
+                </button>
               </div>
-
-              <img src="images/project-dkt.jpg" alt="" />
             </div>
+            <img src="images/project-dkt.jpg" alt="" />
           </div>
+          <!-- portfolio 2 -->
+          <div class="work-card">
+            <div class="overlay overlay-full">
+              <div class="overlay-content">
+                <p class="project-title">Infinit Business Consultancy</p>
 
-          <div class="work-card-right grid">
-            <!-- work card -->
-            <div class="work-card">
-              <div class="overlay overlay-full">
-                <div class="overlay-content">
-                  <p class="project-title">Infinit Business Consultancy</p>
-                  <!-- <p class="project-text">
-                    Euismod faucibus turpis eu gravida mi. Pellentesque et velit
-                    aliquam
-                  </p> -->
-                  <button class="btn btn-link btn-project-hover">
-                    <a
-                      class="button-link"
-                      href="https://www.infinitconsultancy.com/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      >View project &nbsp &#8594;</a
-                    >
-                  </button>
-                </div>
+                <button class="btn btn-link btn-project-hover">
+                  <a
+                    class="button-link"
+                    href="https://www.infinitconsultancy.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >View project &nbsp &#8594;</a
+                  >
+                </button>
               </div>
-              <img src="images/project-infinit.jpg" alt="" />
             </div>
-            <div class="work-card">
-              <div class="overlay overlay-full">
-                <div class="overlay-content">
-                  <p class="project-title">Title</p>
-                  <!-- <p class="project-text">
-                    Euismod faucibus turpis eu gravida mi. Pellentesque et velit
-                    aliquam
-                  </p> -->
-                  <button class="btn btn-link btn-project-hover">
-                    View project &nbsp &#8594;
-                  </button>
-                </div>
+            <img src="images/project-infinit.jpg" alt="" />
+          </div>
+          <!-- portfolio 3 -->
+          <div class="work-card">
+            <div class="overlay overlay-full">
+              <div class="overlay-content">
+                <p class="project-title">Title</p>
+
+                <button class="btn btn-link btn-project-hover">
+                  View project &nbsp &#8594;
+                </button>
               </div>
-              <img src="images/proje-img-3.png" alt="" />
             </div>
+            <img src="images/proje-img-3.png" alt="" />
           </div>
         </div>
       </div>
@@ -346,19 +333,17 @@
 
     <!-- contact form -->
 
-    <section class="section-contact-form">
+    <section class="section-contact-form" id="contact-form">
       <div class="container">
         <div class="grid-container">
           <div class="section-image">
             <div class="image-overlay">
               <div class="image-overlay-wrapper">
                 <h1 class="image-overlay-title">
-                  Building stellar websites for early startups
+                  Let's Contact Me For Great Work
                 </h1>
                 <p class="image-overlay-text">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua
-                  ut enim.
+                  I do the job with the best service
                 </p>
               </div>
             </div>
@@ -366,10 +351,7 @@
           <div class="section-form-container">
             <div class="section-form-heading-container">
               <h5 class="form-title">Send inquiry</h5>
-              <p class="label02-text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore.
-              </p>
+              <p class="label02-text"></p>
             </div>
 
             <form action="">
