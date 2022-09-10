@@ -130,34 +130,34 @@ a {
 }
 
 h1 {
-  font-size: 54px;
+  font-size: clamp(1.5rem, 0.9643rem + 2.6786vw, 3.375rem);
   line-height: 74px;
   font-weight: 600;
 }
 
 h2 {
-  font-size: 48px;
+  font-size: clamp(1.4375rem, 0.9911rem + 2.2321vw, 3rem);
   line-height: 64px;
   font-weight: 600;
 }
 
 h3 {
-  font-size: 38px;
+  font-size: clamp(1.375rem, 1.0893rem + 1.4286vw, 2.375rem);
   line-height: 56px;
   font-weight: 600;
 }
 h4 {
-  font-size: 36px;
+  font-size: clamp(1.3125rem, 1.0446rem + 1.3393vw, 2.25rem);
   line-height: 56px;
   font-weight: 600;
 }
 h5 {
-  font-size: 32px;
+  font-size: clamp(1.25rem, 1.0357rem + 1.0714vw, 2rem);
   line-height: 48px;
   font-weight: 600;
 }
 h6 {
-  font-size: 24px;
+  font-size: clamp(1.1875rem, 1.0982rem + 0.4464vw, 1.5rem);
   line-height: 36px;
   font-weight: 600;
 }
