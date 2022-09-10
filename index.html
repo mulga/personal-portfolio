@@ -28,6 +28,9 @@
     ></script>
     <link rel="shortcut icon" href="images/fav.png" type="image/x-icon" />
 
+<script src="https://smtpjs.com/v3/smtp.js">
+</script>
+
     <title>Mehmet Ulga | Personal Homepage</title>
   </head>
   <body>
@@ -384,28 +387,29 @@
               <p class="label02-text"></p>
             </div>
 
-            <form action="">
+            <form action="" class="contact-form" id="contactForm" >
               <label for="name"></label>
               <input
                 type="text"
-                id="name"
+                id="inputName"
                 placeholder="Your Name"
                 class="form-control"
               />
               <label for="email"></label>
               <input
                 type="email"
-                id="email"
+                id="inputEmail"
                 placeholder="Email"
                 class="form-control"
               />
               <label for="url"></label>
-              <textarea placeholder="Write here" class="form-control">
+              <textarea id="formText" placeholder="Write here" class="form-control">
               </textarea>
-              <button class="btn btn-primary btn-full-width" type="submit">
+              <button class="btn btn-primary btn-full-width" type="submit" onclick="sendMail(e)">
                 Send an Inquiry
               </button>
             </form>
+            
 
             <!-- <textarea name="" id="" cols="30" rows="10"></textarea> -->
           </div>
