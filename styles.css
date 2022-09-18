@@ -650,6 +650,32 @@ textarea::placeholder {
   opacity: 0.5;
 }
 
+/* text area */
+
+textarea::-webkit-input-placeholder {
+  color: var(--clr-grey);
+}
+
+textarea:-moz-placeholder {
+  /* Firefox 18- */
+  color: var(--clr-grey);
+}
+
+textarea::-moz-placeholder {
+  /* Firefox 19+ */
+  color: var(--clr-grey);
+}
+
+textarea:-ms-input-placeholder {
+  color: var(--clr-grey);
+}
+
+textarea::placeholder {
+  color: var(--clr-grey);
+}
+
+/* text area */
+
 .btn-full-width {
   width: 100%;
   margin-top: 40px;
